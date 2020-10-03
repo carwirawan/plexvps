@@ -22,7 +22,7 @@ Ahora vamos a obtener nuestro client id y client secret de la API de google. Par
 - En tipo de aplicación seleccionamos Other y Create.
 - Nos dara un client id y client secret. Lo copiamos y guardamos.
 
-Instalamos screen para dejar el proceso de montaje corriendo en segundo plano y montamos con las opciones por defecto.
+Install screen
 ```
 apt-get install screen
 screen -S plexdrive
@@ -31,10 +31,10 @@ cd /disc2/plexdrive
 ./plexdrive -o allow_other -v 3 -m --refresh-interval=3m localhost /disc2/plexcloud
 ```
 
-Plexdrive empezará a cachear todo el contenido de vuestro plex y puede que tarde bastante, deberíamos dejarle hacer hasta que ponga que ha acabado o haya parado la actividad.
+
 
 to exit screen : Control + A + D.
-back to screen session : screen -r plexdrive.
+back to screen session : screen -r plexdrive
 
 
 
