@@ -28,7 +28,7 @@ apt-get install screen
 screen -S plexdrive
 mkdir /disc2/plexcloud
 cd /disc2/plexdrive
-./plexdrive -o allow_other -v 3 -m --refresh-interval=3m localhost /disc2/plexcloud
+./plexdrive -o allow_other -v 3 -m localhost /disc2/plexcloud
 ```
 
 
