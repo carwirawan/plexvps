@@ -1,5 +1,8 @@
-Mount Gdrive ke server drive
 
+
+You can use the script to create a streaming site like what our team use few years back on [01nonton](https://satu.lol/01nonton)
+
+Mount Gdrive to drive server
 Install MongoDB.
 ```
 apt-get install mongodb
