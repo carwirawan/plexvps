@@ -16,14 +16,14 @@ mv plexdrive-linux-amd64 plexdrive
 chown root:root /disc2/plexdrive/plexdrive
 chmod 755 /disc2/plexdrive/plexdrive
 ```
+Now we are going to get our client id and client secret from the google API. To do this we do the following:
+- Log in to the Google API Console. [Google API Console](https://console.developers.google.com/)
+- create a new project.
+- Go to Overview - Google APIs, Google Apps APIs, Drive API y Enable.
+- Go to Credentials in the left panel and Create Credentials, OAuth client ID.
+- In application type we select Other and Create.
+- It will give us a client id and client secret. Copy it and save.
 
-Ahora vamos a obtener nuestro client id y client secret de la API de google. Para ello hacemos lo siguiente:
-- Nos logueamos en [Google API Console](https://console.developers.google.com/). 
-- Creamos un nuevo proyecto.
-- Vamos a Overview -> Google APIs, Google Apps APIs, Drive API y Enable.
-- Vamos a Credentials en el panel izquierdo y Create Credentials, OAuth client ID.
-- En tipo de aplicación seleccionamos Other y Create.
-- Nos dara un client id y client secret. Lo copiamos y guardamos.
 
 Install screen
 ```
